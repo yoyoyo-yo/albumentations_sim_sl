@@ -14,6 +14,7 @@ st.title('Albumentations simulation')
 
 'Albumentations is wonderful library for data augmentation. https://github.com/albumentations-team/albumentations '
 'This is albumentations result simulation.'
+'[caution] Result is no warranty'
 
 
 st.header('Upload image')
