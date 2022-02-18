@@ -10,7 +10,7 @@ import math
 # upload image
 #---
 
-st.title('Albumentations simulation')
+st.title('Albumentations fast simulator')
 
 'Albumentations is wonderful library for data augmentation. https://github.com/albumentations-team/albumentations '
 'This is albumentations result simulation.'
