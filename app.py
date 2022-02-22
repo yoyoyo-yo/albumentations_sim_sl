@@ -18,7 +18,7 @@ st.title('Albumentations fast simulator')
 
 
 st.header('Upload image')
-uploaded_file = st.file_uploader('', type=['jpg', 'png'])
+uploaded_file = st.file_uploader('', type=['jpg', 'png', 'npy'])
 
 if uploaded_file is None:
     img = cv2.imread('images/imori.jpg')[..., ::-1]
