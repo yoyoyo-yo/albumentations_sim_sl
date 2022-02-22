@@ -35,8 +35,10 @@ else:
 #---
 
 st.header('Your augmentation')
+st.markdown('argument format is definitely A=B')
 input_code = st.text_area('', 
-    '''A.RandomResizedCrop(height=128, width=128, scale = (0.9,1.0), ratio = (0.9,1.0)),
+    '''A.Resize(height=156, width=156),
+A.RandomResizedCrop(height=128, width=128, scale = (0.9,1.0), ratio = (0.9,1.0)),
 A.ShiftScaleRotate(p=0.2, shift_limit=0.2, scale_limit=0.2, rotate_limit=45),
 A.Normalize(p=1),
 A.HueSaturationValue(hue_shift_limit=5, sat_shift_limit=5, val_shift_limit=2, p=0.1),
